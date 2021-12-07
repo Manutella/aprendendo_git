@@ -1,0 +1,26 @@
+    Git
+Git é uma ferramenta de controle de versão com a finalidade de gerenciar diferentes históricos de edição no desenvolvimento de um software. Criando repositórios locais e remotos, dando a possibilidade de reverter o código para sua versão anterior, comparar mudanças ao longo do tempo, entre outros. 
+Sistemas Locais de Controle de Versão
+Normalmente, o método de controle de versão para muitas pessoas é copiar os arquivos para outro diretório. Este método é muito comum porque é muito simples, mas também está sujeito a erros e falhas. É fácil esquecer em qual pasta você está e, acidentalmente, sobrescrever ou copiar arquivos indesejados. Além disso, quando colaboramos com mais pessoas em um projeto, mal podemos usar essa abordagem de controle de versão. O primeiro sistema de controle de versão local foi o RCS (Revision Control System), útil para documentos que exigem alterações frequentes, como programas, documentos, gráficos de programas, documentos e texto.
+Primeiros Comandos Git 
+•	Git Init:  Inicia um repositório local em sua máquina (.git);
+•	Git Status: exibe as condições do diretório de trabalho e da área de staging;
+•	Git Add: Adiciona o conteúdo ao repositório git; 
+•	Git Commit –m “”:  Usado para capturar o estado de um projeto, considerados marcos ao longo do cronograma de um projeto;
+•	Git Diff:  realiza uma função de comparação nas fontes de dados git;
+•	Git Tag: é em geral usado para capturar um ponto no histórico que é usado para uma versão marcada (por exemplo, v1. 0.1);
+•	Git Log:  Te faz visualizar o que vem sendo feito em uma determinada branch ou avaliar as alterações de um arquivo em especial;
+•	Git Clone:  é usado para selecionar um repositório existente e criar um clone ou cópia do repositório de destino local ou remoto;
+    EX.: 	 Para repositório local:
+        git clone /caminho/para/o/repositório
+
+             Servidor remoto:
+        git clone usuário@servidor:/caminho/para/o/repositório
+
+•	Branches (ramos):  São usados para desenvolver funcionalidades isoladas umas das outras. O branch master é o branch “padrão” quando se cria um repositório. 
+•	Git Chekout –b “branch”:  Retorna para o branch escolhido;
+•	Git Chekout master: Retorna para o branch master;
+•	Git Branch –d “branch”:  Remove branch selecionada;
+•	Git push origin <url /repositório/remoto>:  Envia seu repositório local para repositório remoto;
+•	Git Pull: Usado para obter no repositório local a versão mais atualizada do remoto. 
+•	Git Merge <branch>:  Usado para mesclar a versão atualizada do repositório remoto ao local;
